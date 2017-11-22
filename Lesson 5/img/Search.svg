@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="139.938" height="139.938" viewBox="0 0 139.938 139.938">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #343e5c;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Search_Icon" data-name="Search Icon" class="cls-1" d="M136.841,136.806a13.826,13.826,0,0,1-19.524,0L88.858,108.333a57.966,57.966,0,1,1,19.524-19.52l28.459,28.481A13.788,13.788,0,0,1,136.841,136.806ZM84.3,33.5a35.893,35.893,0,1,0,0,50.759A35.893,35.893,0,0,0,84.3,33.5Z" transform="translate(-0.938 -0.906)"/>
+</svg>

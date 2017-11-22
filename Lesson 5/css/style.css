@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates:900');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.menu__logo__img {
+  width: 93px;
+  height: 25px;
+  padding-top: 25px;
+  padding-right: 212px;
+  float: left;
+}
+
+.menu__list__ul li {
+  font-size: 11px;
+
+  color: #343e5c;
+  display: inline;
+  padding-right: 31px;
+  padding-top: 31px;
+  float: left;
+
+}
+
+.menu__shop-cart__img {
+  padding-left: 149px;
+  width: 19px;
+  height: 18px;
+  padding-top: 31px;
+  float: left;
+  margin-right: 9px;
+  flex-wrap: nowrap;
+}
+
+.menu__shop-cart__p {
+
+  padding-top: 31px;
+}
+
+.menu__order__elem1 {
+
+  font-size: 14px;
+  color: #343e5c;
+  text-transform: uppercase;
+  padding-top: 3px;
+
+}
+
+.menu__order {
+  text-align: center;
+  width: 25px;
+  height: 25px;
+
+  font-size: 11px;
+  color: #343e5c;
+  float: left;
+  margin-left: 970px;
+  margin-top: -22px;
+  background-color: #e3e8f0;
+  border-radius: 100%;
+
+}
+
+.menu__button {
+
+  font-size: 11px;
+  color: #343e5c;
+  width: 86px;
+  height: 31px;
+  border-radius: 16px;
+  background: white;
+  border: 2px solid #e3e8f0;
+  float: right;
+  margin-top: -23px;
+
+}
+
+.theFirstScrin {
+  height: 80px;
+  border-bottom: 1px solid #f0f2f7;
+}
+
+.sub-menu {
+  height: 55px;
+}
+
+.sub-menu__list__ul li {
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 13px;
+  color: #b9bed1;
+  display: inline;
+  padding-right: 33px;
+  padding-top: 24px;
+  padding-bottom: 17px;
+  float: left;
+}
+
+.support {
+  padding-left: 355px;
+  border-right: 2px solid #e3e8f0;
+  margin: 0;
+}
+
+.sub-menu__support__img .search {
+  margin-left: 21px;
+  width: 13px;
+  height: 13px;
+  background: url('../img/Search.png');
+}
+
+.hi-tech {
+  color: #343e5c !important;
+}
+
+.search {
+  font-size: 14px !important;
+}
+
+.phone {
+  height: 500px;
+  background: #1c1e23;
+}
+
+.phone__text__h1 {
+  font-family: 'Montserrat Alternates', sans-serif;
+  margin: 0;
+  color: white;
+  font-size: 30px;
+  padding-top: 80px;
+  padding-bottom: 32px;
+
+}
+
+.phone__text__p {
+  font-family: 'Crimson Text', serif;
+  color: white;
+
+}
+
+.phone__button {
+  width: 164px;
+  height: 42px;
+  border-radius: 21px;
+  background-color: #2754eb;
+  color: white;
+  border: none;
+  font-size: 11px;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 50px;
+}
+
+
+.phone_text {
+  margin-left: 30px;
+
+}
+
+.phone__img {
+  width: 300px;
+  height: 500px;
+  background: url("../img/phone.png");
+  float: right;
+  margin-top: -414px;
+  margin-left: -150px;
+
+}
