@@ -13,7 +13,7 @@
   font-family: 'Montserrat', sans-serif;
 }
 
-.menu__logo__img {
+.menu__logo-img {
   width: 93px;
   height: 25px;
   padding-top: 25px;
@@ -21,7 +21,7 @@
   float: left;
 }
 
-.menu__list__ul li {
+.menu__rows li {
   font-size: 11px;
 
   color: #343e5c;
@@ -32,7 +32,7 @@
 
 }
 
-.menu__shop-cart__img {
+.menu__shopcart-img {
   padding-left: 149px;
   width: 19px;
   height: 18px;
@@ -42,12 +42,12 @@
   flex-wrap: nowrap;
 }
 
-.menu__shop-cart__p {
+.menu__shopcart-text {
 
   padding-top: 31px;
 }
 
-.menu__order__elem1 {
+.menu__order-elem1 {
 
   font-size: 14px;
   color: #343e5c;
@@ -94,7 +94,7 @@
   height: 55px;
 }
 
-.sub-menu__list__ul li {
+.sub-menu__list li {
   font-weight: bold;
   font-size: 11px;
   line-height: 13px;
@@ -112,7 +112,7 @@
   margin: 0;
 }
 
-.sub-menu__support__img .search {
+.sub-menu__img .search {
   margin-left: 21px;
   width: 13px;
   height: 13px;
@@ -132,7 +132,7 @@
   background: #1c1e23;
 }
 
-.phone__text__h1 {
+.phone__caption {
   font-family: 'Montserrat Alternates', sans-serif;
   margin: 0;
   color: white;
@@ -142,7 +142,7 @@
 
 }
 
-.phone__text__p {
+.phone__description {
   font-family: 'Crimson Text', serif;
   color: white;
 
