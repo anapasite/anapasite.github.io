@@ -1,5 +1,12 @@
+@font-face {
+  font-family: 'Arvo';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Arvo'), local('Arvo-Regular'),
+  url(https://allfont.ru/cache/fonts/arvo_b1fdfe21708d7c470c3a4ef8bb7a0963.woff) format('woff'),
+  url(https://allfont.ru/cache/fonts/arvo_b1fdfe21708d7c470c3a4ef8bb7a0963.ttf) format('truetype');
+}
 
-@import url(https://allfont.ru/allfont.css?fonts=arvo);
 body {
   font-family: 'Arvo', arial;
   color: #3b3f6a;
