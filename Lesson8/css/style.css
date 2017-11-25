@@ -10,6 +10,10 @@
 	font-style: normal;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
 .text-box{
 	padding-top: 2rem;
 }
