@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Raleway', sans-serif;
+}
+.main-color {
+  color: #202242;
+}
+.second-color {
+  color: #ffe13e;
+}
+.head {
+  margin-top: 20px;
+  margin-bottom: -25px;
+  height: 100px;
+}
+.help {
+  font-size: 11px;
+}
+.nav__logo {
+  float: right;
+  margin-top: -7px;
+}
+.nav__logo__text {
+  margin-left: -15px;
+}
+.menu {
+  height: 50px;
+  text-transform: uppercase;
+  margin-top: -0.5px;
+  margin-left: 25px;
+  margin-bottom: -10px;
+  border-right: 1px solid lightgray;
+}
+.menu__list {
+  display: inline;
+  margin-right: 45px;
+  color: #202242;
+  font-size: 12px;
+}
+.menu .theFirst-world {
+  color: #ffe13e;
+  font-weight: bold;
+}
+.menu__botton {
+  width: 121px;
+  height: 41px;
+  background-color: #ffe13e;
+  border: none;
+  color: #202242;
+  font-size: 18px;
+  margin-top: 6px;
+}
+.menu__number {
+  font-family: 'Lato', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: right;
+  margin-top: 10px;
+  color: #202242;
+}
+.menu__border {
+  width: 131px;
+  height: 51px;
+  border-right: 1px solid lightgray;
+  margin-top: 5px;
+}
+.main-window {
+  font-family: 'Lato', sans-serif;
+  height: 792px;
+  background: url("../img/fon.jpg") no-repeat;
+  background-size: 100%;
+  text-align: center;
+}
+.header {
+  color: white;
+}
+.header__description {
+  margin-bottom: 60px;
+  word-spacing: 10px;
+  font-size: 30px;
+}
+.header__main-text {
+  font-size: 48px;
+  padding-top: 227px;
+}
+.img-round {
+  margin-bottom: 60px;
+}
+.border-form {
+  width: 574px;
+  height: 92px;
+  background: #dddddd;
+  padding: 19px;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+.form {
+  font-family: 'Raleway', sans-serif;
+}
+.form__elem1 input {
+  width: 272px;
+  height: 54px;
+  background: white;
+  float: left;
+  font-size: 18px;
+  color: black;
+  padding-left: 23px;
+  border: 1px solid #dddddd;
+}
+.form__elem2 {
+  width: 108px;
+  height: 54px;
+  float: left;
+  background: #ffe13e;
+  border-right: 1px solid white;
+  padding-top: 15px;
+  font-weight: bold;
+}
+.form__elem3 {
+  width: 155px;
+  height: 54px;
+  float: left;
+  background: #ffe13e;
+  border: none;
+  font-weight: bold;
+  color: white;
+}
