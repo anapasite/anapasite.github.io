@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+p {
+  margin: 5px 0 10px 0;
+}
+@font-face {
+  font-family: 'Panton';
+  src: url('/fonts/Panton-SemiBold.eot');
+  src: url('/fonts/Panton-SemiBold.eot?#iefix') format('embedded-opentype'), url('/fonts/Panton-SemiBold.woff2') format('woff2'), url('/fonts/Panton-SemiBold.woff') format('woff'), url('/fonts/Panton-SemiBold.ttf') format('truetype'), url('/fonts/Panton-SemiBold.svg#Panton-SemiBold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Panton';
+  src: url('/fonts/Panton-ExtraBold.eot');
+  src: url('/fonts/Panton-ExtraBold.eot?#iefix') format('embedded-opentype'), url('/fonts/Panton-ExtraBold.woff2') format('woff2'), url('/fonts/Panton-ExtraBold.woff') format('woff'), url('/fonts/Panton-ExtraBold.ttf') format('truetype'), url('/fonts/Panton-ExtraBold.svg#Panton-ExtraBold') format('svg');
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Panton';
+  src: url('/fonts/Panton-Regular.eot');
+  src: url('/fonts/Panton-Regular.eot?#iefix') format('embedded-opentype'), url('/fonts/Panton-Regular.woff2') format('woff2'), url('/fonts/Panton-Regular.woff') format('woff'), url('/fonts/Panton-Regular.ttf') format('truetype'), url('/fonts/Panton-Regular.svg#Panton-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Panton';
+  src: url('/fonts/Panton-Light.eot');
+  src: url('/fonts/Panton-Light.eot?#iefix') format('embedded-opentype'), url('/fonts/Panton-Light.woff2') format('woff2'), url('/fonts/Panton-Light.woff') format('woff'), url('/fonts/Panton-Light.ttf') format('truetype'), url('/fonts/Panton-Light.svg#Panton-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+body {
+  font-family: 'Panton';
+  font-weight: 600;
+  font-style: normal;
+}
+.head {
+  height: 160px;
+}
+.head__text {
+  font-weight: 800;
+  font-size: 24px;
+  text-align: center;
+  padding-top: 50px;
+}
+.head__number {
+  font-size: 30px;
+  padding-top: 50px;
+}
+.head__button {
+  width: 264px;
+  height: 50px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 26px;
+}
+.menu {
+  height: 93px;
+  background-color: #292d30;
+  color: white;
+  padding-top: 25px;
+}
+.menu-list {
+  margin-left: 90px;
+}
+.menu-list__elem {
+  display: inline;
+  padding-right: 33px;
+  margin: 0 auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 30px;
+}
+.main {
+  height: 1070px;
+  background: url("../img/fon.jpg") no-repeat;
+  background-size: 100%;
+  padding-left: 50px;
+  text-align: center;
+  color: white;
+}
+.logo {
+  width: 468px;
+  height: 65px;
+  background: url("../img/logo.png");
+  margin-left: 10%;
+  margin-top: 270px ;
+}
+.main__h1 {
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-bottom: 87px;
+}
+.main__h2 {
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-style: normal;
+  margin-bottom: 45px;
+}
+.main__p {
+  font-size: 24px;
+  font-weight: 300;
+  font-style: normal;
+}
+.main-button {
+  width: 350px;
+  height: 66px;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 30px;
+  background-color: #059feb;
+  border: none;
+  border-radius: 30px;
+  margin-left: 44%;
+  margin-top: 40px;
+}
+.scroll {
+  font-size: 24px;
+  font-weight: 300;
+  font-style: normal;
+  margin-top: 90px;
+}
+.scroll-img {
+  height: 59px;
+  width: 36px;
+  background: url("../img/mouse.png");
+  margin-left: 49%;
+  margin-top: 25px;
+}
+.footer {
+  height: 750px;
+  text-align: center;
+}
+.footer__h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin: 0;
+  padding-left: 30px;
+  font-size: 36px;
+  padding-top: 20px;
+}
+.footer__p {
+  font-size: 24px;
+  padding-bottom: 60px;
+}
+.text-style-h {
+  font-size: 30px;
+  font-weight: 600;
+  font-style: normal;
+}
+.text-style-p {
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+}
+.img-girl__h1 .img-camera__h1 .img-youtube__h1 .img-kasseta__h1 {
+  font-size: 30px;
+  font-weight: 600;
+  font-style: normal;
+}
+.img-girl__p .img-camera__p .img-youtube__p .img-kasseta__p {
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+}
