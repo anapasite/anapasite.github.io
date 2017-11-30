@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Bad+Script&subset=cyrillic');
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Bad Script', cursive;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+.slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+.item {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: antiquewhite;
+  flex-basis: 25%;
+  transition: all 0.2s;
+}
+.item:hover {
+  flex-basis: 100%;
+}
+.item span {
+  font-size: 2rem;
+  text-shadow: 0 0 10px #000;
+}
+.item-1 {
+  background: url("../img/car.jpg") no-repeat center center;
+  background-size: cover;
+}
+.item-2 {
+  background: url("../img/house.jpg") no-repeat center center;
+  background-size: cover;
+}
+.item-3 {
+  background: url("../img/sea.jpg") no-repeat center center;
+  background-size: cover;
+}
+.item-4 {
+  background: url("../img/people.jpg") no-repeat center center;
+  background-size: cover;
+}
+@media (max-width: 640px) {
+  .slider {
+    height: 100vh;
+    flex-flow: column;
+  }
+  .item {
+    width: 100%;
+  }
+  .item:hover {
+    flex-grow: 30%;
+  }
+}
