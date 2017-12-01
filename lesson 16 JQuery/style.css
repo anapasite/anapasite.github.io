@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  font-family: "Trebuchet MS", sans-serif;
+}
+.main {
+  margin: -50px;
+  height: 500px;
+  background: url("img/sea.jpeg") no-repeat center center;
+  background-size: 100%;
+}
+.main h1 {
+  margin-top: 50px;
+  text-align: center;
+  padding-top: 100px;
+  color: white;
+  font-size: 70px;
+}
+.menu {
+  background-color: lightcyan;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+  left: -100vw;
+}
+.menu-link {
+  z-index: 9;
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 20px;
+  left: 20px;
+}
+.menu-link span,
+.menu-link span:before,
+.menu-link span:after {
+  display: block;
+  height: 2px;
+  width: 18px;
+  position: absolute;
+  background-color: #333;
+  left: 50%;
+  margin-left: -9px;
+  top: 50%;
+  margin-top: -1px;
+}
+.menu-link span:before {
+  transition: all 0.2s;
+  content: ' ';
+  margin-top: -6px;
+}
+.menu-link span:after {
+  transition: all 0.2s;
+  content: ' ';
+  margin-top: 4px;
+}
+.menu-link_active span {
+  background-color: transparent;
+}
+.menu-link_active span:before {
+  transform: rotate(135deg);
+  margin-top: 0;
+}
+.menu-link_active span:after {
+  transform: rotate(-135deg);
+  margin-top: 0;
+}
+.menu_active {
+  left: 0;
+}
+.menu ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+.menu ul li {
+  width: 100vw;
+  font-size: 30px;
+}
+.menu ul a {
+  font-family: "Trebuchet MS", sans-serif;
+  display: block;
+  width: 100%;
+  line-height: 4;
+  font-weight: 100;
+  letter-spacing: 4px;
+  color: darkslategrey;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+.menu ul a:hover {
+  text-decoration: none;
+  background-color: rgba(15, 15, 15, 0.2);
+}

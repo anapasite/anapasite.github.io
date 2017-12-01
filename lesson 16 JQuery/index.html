@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="normolize.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="less/style.less">
+</head>
+<body>
+
+
+
+<a class="menu-link " href="#">
+  <span></span>
+
+</a>
+<div class="menu">
+
+  <ul>
+    <li><a href="https://vk.com/annarepetitor">Мы во ВКонтакте</a></li>
+    <li><a href="https://www.instagram.com">Мы в инстаграме</a></li>
+    <li><a href="https://ok.ru">Мы в одноклассниках</a></li>
+
+  </ul>
+</div>
+
+<section class="main">
+<h1> Добро пожаловать в лето!</h1>
+</section>
+
+<script src="jquery-1.12.4.min.js"></script>
+<script>
+  $(document).ready(function () {
+    var link = $('.menu-link');
+    var link_active = $('.menu-link_active');
+    var menu = $('.menu');
+
+    link.click(function () {
+      link.toggleClass('menu-link_active');
+      menu.toggleClass('menu_active')
+    });
+    link_active.click(function () {
+      link.removeClass('menu-link_active');
+    });
+  });
+</script>
+
+</body>
+</html>
