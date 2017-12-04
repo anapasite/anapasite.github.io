@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,700');
+* {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 742px;
+  background: url("../img/fon.jpg") no-repeat;
+  background-size: 100%;
+  font-family: 'Ubuntu', sans-serif;
+}
+.accordeon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.accordeon-text {
+  text-transform: uppercase;
+  font-size: 36px;
+  color: #0bbaf0;
+  font-weight: bold;
+  padding-top: 0;
+  line-height: 20px;
+}
+.accordeon-description {
+  font-size: 24px;
+  color: #0bbaf0;
+  text-transform: uppercase;
+}
+.accordeon .line {
+  width: 125px;
+  height: 1px;
+  background-color: lightgrey;
+  margin-bottom: 29px;
+}
+.tab {
+  display: block;
+  margin-bottom: 5px;
+  width: 860px;
+  text-align: center;
+  color: white;
+  height: 56px;
+  line-height: 40px;
+  background-color: #0bbaf0;
+  font-size: 23px;
+  padding-top: 5px;
+}
+.tab a {
+  text-decoration: none;
+}
+.tab:hover {
+  cursor: pointer;
+  text-decoration: none;
+}
+.content {
+  height: 120px;
+  transition: all 0.2s;
+  display: none;
+}
+.content-description {
+  margin-top: -5px;
+  margin-bottom: -3px;
+  padding: 5px 0 0 32px;
+  font-size: 22px;
+  text-decoration: none;
+  text-transform: none;
+  color: #535353;
+  font-weight: 400;
+  height: 125px;
+  width: 842px;
+  border: 2px solid lightgrey;
+  border-top-color: white;
+  background-color: white;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+.content-1 {
+  display: block;
+}
