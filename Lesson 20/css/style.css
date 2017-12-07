@@ -1,0 +1,135 @@
+body {
+  font-family: "Ubuntu Medium", sans-serif;
+}
+#tubular-container {
+  height: 770px !important;
+  position: absolute !important;
+}
+#tubular-shield {
+  height: 770px !important;
+}
+.main {
+  height: 750px;
+}
+.wrapper {
+  display: block;
+  height: 770px !important;
+  text-align: center;
+  color: white;
+}
+.wrapper h1 {
+  font-size: 56px;
+}
+.wrapper h2 {
+  font-size: 14px;
+  padding-bottom: 60px;
+}
+.wrapper h3 {
+  font-size: 24px;
+}
+.form {
+  display: flex;
+  justify-content: center;
+}
+.form-name,
+.form-email {
+  text-align: left;
+  width: 220px;
+  height: 50px;
+  border-right: 1px solid lightgrey;
+  background-color: white;
+  color: grey;
+  margin-top: 89px;
+  padding-top: 15px;
+  padding-left: 24px;
+}
+.form-submit {
+  background-color: #1abc9c;
+  color: white;
+  width: 159px;
+  height: 50px;
+  margin-top: 89px;
+  padding-top: 15px;
+  text-align: left;
+  padding-left: 24px;
+}
+.color {
+  color: #1abc9c;
+}
+.contactUs {
+  font-size: 16px;
+  margin-top: 50px;
+}
+.nav {
+  color: gray;
+  display: flex;
+  background-color: white;
+  height: 63px;
+  box-shadow: 0 -7px -10px -9px #000000;
+}
+.menu {
+  margin-top: 17px;
+  color: gray;
+  display: inline-block;
+  list-style: none;
+  margin-right: 400px;
+}
+.menu li {
+  display: inline;
+  margin-right: 10px;
+}
+.img-logo {
+  margin-top: 18px;
+}
+.social-fb {
+  margin-top: 13px;
+  margin-right: 25px;
+  background: url("../img/fb.png") no-repeat center;
+  height: 28px;
+  width: 16px;
+}
+.social-twit {
+  margin-right: 25px;
+  margin-top: 19px;
+  background: url("../img/twitter.png") no-repeat;
+  height: 20px;
+  width: 25px;
+}
+.social-round {
+  background: url("../img/Ellipse.png") no-repeat;
+  width: 32px;
+  height: 8px;
+  margin-top: 25px;
+}
+.product {
+  height: 726px;
+  text-align: center;
+}
+.shadow {
+  box-shadow: 0.4em 0.4em 5px rgba(122, 122, 122, 0.5);
+}
+.img-smile {
+  height: 64px;
+  width: 64px;
+  background: url("../img/smile.png");
+  margin-top: 108px;
+  margin-left: 47%;
+  margin-bottom: 35px;
+}
+.product_h3 {
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  font-size: 15px;
+  color: #a5a5a5;
+}
+.product_h1 {
+  font-size: 61px;
+  margin-bottom: 70px;
+}
+.flex {
+  display: flex;
+  justify-content: space-around;
+}
+.flex-item {
+  margin: 30px;
+}
