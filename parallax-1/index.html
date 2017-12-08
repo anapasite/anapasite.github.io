@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lesson 21</title>
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu:300i,400,500,700" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="container">
+  <div class="menu">
+    <div class="img-logo"></div>
+    <ul class="nav">
+      <li>how it works</li>
+      <li>about us</li>
+      <li>contactus</li>
+      <li>blog</li>
+    </ul>
+  </div>
+</div>
+
+<div class="main">
+  <div class="container">
+<div id="scene">
+  <div data-depth="0.15" id="cloud-1"><img src="img/cloud.png" alt="cloud"></div>
+  <div data-depth="0.1" id="cloud-2"><img src="img/cloud-2.png" alt="cloud"></div>
+  <div data-depth="0.15" id="cloud-3"><img src="img/cloud.png" alt="cloud"></div>
+   <div data-depth="1" id="hand" data-limit-y="1"><img src="img/hand.png" alt="cloud"></div>
+</div>
+
+
+<h1>Track <br> next fuel shops</h1>
+<h3>Monitor and Alert on all petrol bunks near to you</h3>
+<h5>Signup For <span class="free">FREE</span></h5>
+<form class="form" action="">
+  <input class="form-input" type="text" placeholder="Your E-mail Adress">
+  <input class="form-submit" type="submit" value="SIGNUP">
+</form>
+
+  </div>
+
+
+</div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+<script>
+  var scene = document.getElementById('scene');
+  var parallaxInstance = new Parallax(scene, {
+    limitY: 100,
+    limitZ: 100
+  });
+</script>
+</body>
+</html>

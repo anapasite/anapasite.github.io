@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Ubuntu, sans-serif;
+}
+body .menu {
+  display: flex;
+  height: 90px;
+  color: gray;
+  text-transform: uppercase;
+  margin-top: 28px;
+}
+body .menu .img-logo {
+  background: url("../img/logo.png") no-repeat;
+  width: 203px;
+  height: 38px;
+  margin-top: 28px;
+}
+body .nav {
+  margin-top: 28px;
+  margin-left: 500px;
+}
+body .nav li {
+  display: inline-block;
+  padding-right: 20px;
+}
+body .main {
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+  height: 850px;
+  background-color: #66abdb;
+}
+body .main h1 {
+  line-height: 1.5;
+  font-size: 52px;
+  text-transform: uppercase;
+}
+body .main h3 {
+  font-size: 24px;
+  font-family: "Ubuntu Light", sans-serif;
+  font-style: italic;
+}
+body .main h5 {
+  margin-top: 50px;
+  font-size: 16px;
+}
+.free {
+  text-transform: uppercase;
+  height: 26px;
+  width: 55px;
+  padding: 4px;
+  margin-left: 10px;
+  background-color: #ffce54;
+  border-radius: 3px;
+  font-weight: bold;
+}
+.form {
+  margin-top: 40px;
+}
+.form-input {
+  width: 425px;
+  height: 56px;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  padding-left: 30px;
+  font-size: 18px;
+  margin-right: 27px;
+}
+.form-submit {
+  text-transform: uppercase;
+  width: 113px;
+  height: 56px;
+  background-color: #77c344;
+  border: none;
+  border-radius: 10px;
+}
+#cloud-1 {
+  margin-top: 148px;
+}
+#cloud-2 {
+  margin-top: 500px;
+}
+#cloud-3 {
+  margin-top: 50px;
+  margin-left: 1100px;
+}
+#hand {
+  margin-top: -100px;
+  margin-left: 700px;
+}
