@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Формы</title>
+
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.grid.css" rel="stylesheet">
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/normolize.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script
+    src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<section id="php">
+  <?php
+  $text = 'Nhehehe';
+  echo "$text";
+  ?>
+</section>
+
+
+<section class="fon">
+
+  <div class="container">
+    <div class="main">
+
+      <div class="block1">
+
+      </div>
+
+
+      <div class="block2">
+        <h3 class="head">Сохрани свой аккаунт</h3>
+        <p class="description">Получи бесплатно неограниченное количество <br>форм,
+          вопросов и ответов</p>
+        <form id="form" action="smart.php" method="POST">
+          <input type="hidden" name="whatever" value="Главная форма">
+
+
+          <div class="elem-1"><i class="fa fa-user" aria-hidden="true"></i>
+          </div>
+          <div class="elem-1"><input class="form-control" id="input-name"
+                                     minlength="2" name="name"
+                                     placeholder="Имя или никнейм" type="text">
+          </div>
+
+          <div class="elem-1"><i class="fa fa-envelope" aria-hidden="true"></i>
+          </div>
+          <div class="elem-1"><input class="form-control" id="input-email"
+                                     name="email" placeholder="Email"
+                                     type="text"></div>
+
+
+          <div class="elem-1"><i class="fa fa-lock" aria-hidden="true"></i>
+          </div>
+          <div class="elem-1"><input class="form-control" id="input-password"
+                                     name="password" placeholder="Пароль"
+                                     type="text"></div>
+          <div class="elem-1">
+            <button class="btn btn-primary" type="submit"> Сохранить ></button>
+          </div>
+        </form>
+
+        <p class="enter">Уже есть аккаунт? <span class="color">Войти</span></p>
+
+      </div>
+
+    </div>
+
+
+  </div>
+</section>
+<script src="js/jquery-1.12.4.min.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script
+  src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+
+<!-- <script src="js/jquery.maskedinput.min.js"></script> ПРОВЕРКА НОМЕРА ТЕЛЕФОНА-->
+<!--<script>
+  jQuery(function($){
+    $("#input-phone").mask("+7 (999)999-99-99");
+   });
+</script>-->
+<script>
+
+  $('#form').validate({
+    rules: {
+      name: {
+        required: true,
+        minlength: 2
+      },
+      email: {
+        required: true,
+        minlength: 3,
+        email: true,
+      },
+      password: {
+        required: true,
+        minlength: 6
+
+      }
+    },
+    messages: {
+      name: {
+        required: 'Это поле обязательно для заполнения',
+        minlength: 'Не менее 2 символов'
+      },
+      email: {
+        required: 'Это поле обязательно для заполнения',
+        minlength: 'Не менее 2 символов',
+        email: 'Введите корректный email'
+      },
+      password: {
+        required: 'Это поле обязательно для заполнения',
+        minlength: 'Не менее 6 символов'
+      }
+    }
+
+  });
+
+</script>
+
+<!--
+<script>
+ $(document).ready(function () {
+   var btn = $('.btn');
+      btn.click(function () {
+        var userName = $('#input-name').val();
+        var userPhone = $('#input-phone').val();
+        var userEmail = $('#input-email').val();
+        var form = $('#form');
+
+     if (userPhone !== '' & userName !== '') {
+       form.submit();
+     } else {
+alert('Введите имя и телефон!')
+     }
+   });
+   });
+</script>-->
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script
+  src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.js"></script>
+
+</body>
+</html>
