@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Формы</title>
+
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.grid.css" rel="stylesheet">
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/normolize.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"
+          type="text/javascript">
+  </script>
+
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script
+    src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+
+
+<div class="container">
+  <div content="form">
+    <form id="form" action="thanks.html">
+      <h1 class="form-head">Contact</h1><br>
+      <input class="form-control" id="input-email" name="email"
+             placeholder="Your email" type="text">
+      <input class="form-control" id="company-name" minlength="2" name="name"
+             placeholder="Company" type="text">
+      <input class="form-control" id="subject-name" minlength="2" name="name"
+             placeholder="Subject" type="text">
+      <input class="form-control" id="messages" placeholder="Yor Messages"
+             type="text">
+
+      <button class="btn btn-primary" type="submit"> SEND MESSAGE</button>
+    </form>
+  </div>
+  <div id="map"></div>
+
+
+</div>
+
+<script src="js/jquery-1.12.4.min.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script
+  src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+
+<!-- <script src="js/jquery.maskedinput.min.js"></script> ПРОВЕРКА НОМЕРА ТЕЛЕФОНА-->
+<!--<script>
+  jQuery(function($){
+    $("#input-phone").mask("+7 (999)999-99-99");
+   });
+</script>-->,
+
+
+<script type="text/javascript" charset="utf-8" async
+        src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ac7676a34102d39384800625fb4e305aa57e59391d6ca2102a5c9393c7ee218f6&amp;width=100%25&amp;height=650&amp;lang=ru_RU&amp;scroll=false"></script>
+
+
+<script>
+  $('#form').validate({
+    rules: {
+      name: {
+        required: true,
+        minlength: 2
+      },
+      email: {
+        required: true,
+        minlength: 3,
+        email: true,
+      }
+    },
+    messages: {
+      name: {
+        required: 'Это поле обязательно для заполнения',
+        minlength: 'Не менее 2 символов'
+      },
+      email: {
+        required: 'Это поле обязательно для заполнения',
+        minlength: 'Не менее 2 символов',
+        email: 'Введите корректный email'
+      }
+    }
+
+  });
+</script>
+
+
+<!--
+<script>
+ $(document).ready(function () {
+   var btn = $('.btn');
+      btn.click(function () {
+        var userName = $('#input-name').val();
+        var userPhone = $('#input-phone').val();
+        var userEmail = $('#input-email').val();
+        var form = $('#form');
+
+     if (userPhone !== '' & userName !== '') {
+       form.submit();
+     } else {
+alert('Введите имя и телефон!')
+     }
+   });
+   });
+</script>-->
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script
+  src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.js"></script>
+
+</body>
+</html>
