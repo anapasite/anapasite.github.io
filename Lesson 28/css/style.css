@@ -1,10 +1,10 @@
 .main-fon {
-  background: url("../img/fon.jpg") no-repeat;
+  background: url("/img/fon.jpg") no-repeat;
   background-size: 100%;
   height: 1200px;
 }
 .img {
-  background: url("../img/creslo.png") no-repeat;
+  background: url("/img/creslo.png") no-repeat;
   margin-left: 127px;
   width: 503px;
   height: 717px;
