@@ -4,10 +4,10 @@
 }
 .main {
   padding-top: 40px;
-  margin-bottom: 70px;
-  height: 850px;
+  height: 100vh;
   width: 100vw;
   background: url("../img/bg.jpg") no-repeat;
+  background-size: 100vw;
 }
 .main h3,
 .main p,
@@ -19,7 +19,6 @@
   text-align: center !important;
   color: #ffff33;
   margin-bottom: 30px;
-  margin-top: 30px;
 }
 .main h2 {
   margin-top: 2vw;
@@ -97,7 +96,7 @@
   box-shadow: 0 5px 5px #999900;
 }
 .second {
-  margin-top: 30px;
+  margin-top: 90px;
   font-size: 18px;
   text-align: center;
 }
