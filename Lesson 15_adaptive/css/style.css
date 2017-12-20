@@ -96,6 +96,7 @@
   box-shadow: 0 5px 5px #999900;
 }
 .second {
+  margin-top: -50px;
   font-size: 18px;
   text-align: center;
 }
